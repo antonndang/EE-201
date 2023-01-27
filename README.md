@@ -1,5 +1,5 @@
 # Arduino
-## Exercise II
+## Exercise I & II
 ```
 void setup() {
   // put your setup code here, to run once:
