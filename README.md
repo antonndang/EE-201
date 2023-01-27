@@ -82,10 +82,12 @@ else{
 
 // }
 
+```
 
 
-##### (Display 9-0 every 1.5 second per numbers)
+##### Exercise IV (Display 9-0 every 1.5 second per numbers)
 
+```
 int pinA = 8;
 int pinB = 7;
 int pinC = 6;
