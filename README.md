@@ -41,11 +41,11 @@ else{
 }
 ```
 
-#### Exercise IV
+#### Exercise IV (test the 7 Segment)
 
 ```
 // void setup() {
-//   // put your setup code here, to run once:
+// put your setup code here, to run once:
 // pinMode(8, OUTPUT);
 // pinMode(2, OUTPUT);
 // pinMode(3, OUTPUT);
@@ -82,6 +82,10 @@ else{
 
 // }
 
+
+
+##### (Display 9-0 every 1.5 second per numbers)
+
 int pinA = 8;
 int pinB = 7;
 int pinC = 6;
@@ -105,7 +109,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  // 9
+  // #9
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 0);
@@ -115,7 +119,7 @@ void loop() {
   digitalWrite(pinG , 0);
   delay(1500);
 
-  // 8
+  // #8
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 0);
@@ -125,7 +129,7 @@ void loop() {
   digitalWrite(pinG , 0);
   delay(1500);
 
-  // 7
+  // #7
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 0);
@@ -135,7 +139,7 @@ void loop() {
   digitalWrite(pinG , 1);
   delay(1500);
 
-    // 6
+    // #6
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 1);
   digitalWrite(pinC , 0);
@@ -145,7 +149,7 @@ void loop() {
   digitalWrite(pinG , 0);
   delay(1500);
 
-  // 5
+  // #5
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 1);
   digitalWrite(pinC , 0);
@@ -155,7 +159,7 @@ void loop() {
   digitalWrite(pinG , 0);
   delay(1500);
 
-  // 4
+  // #4
   digitalWrite(pinA , 1);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 0);
@@ -165,7 +169,7 @@ void loop() {
   digitalWrite(pinG , 0);
   delay(1500);
 
-  // 3
+  // #3
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 0);
@@ -175,7 +179,7 @@ void loop() {
   digitalWrite(pinG , 0);
   delay(1500);
 
-  // 2
+  // #2
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 1);
@@ -185,7 +189,7 @@ void loop() {
   digitalWrite(pinG , 0);
   delay(1500);
 
-  // 1
+  // #1
   digitalWrite(pinA , 1);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 0);
@@ -195,7 +199,7 @@ void loop() {
   digitalWrite(pinG , 1);
   delay(1500);
 
-  // 0
+  // #0
   digitalWrite(pinA , 0);
   digitalWrite(pinB , 0);
   digitalWrite(pinC , 0);
