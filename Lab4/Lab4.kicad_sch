@@ -458,7 +458,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 72.39 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7af85083-f579-4058-aa6c-ba496da592ba)
-    (property "Reference" "9V" (id 0) (at 73.025 90.17 0))
+    (property "Reference" "9V1" (id 0) (at 73.025 90.17 0))
     (property "Value" "V1" (id 1) (at 73.025 92.71 0))
     (property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" (id 2) (at 72.39 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -476,7 +476,7 @@
 
   (symbol_instances
     (path "/7af85083-f579-4058-aa6c-ba496da592ba"
-      (reference "9V") (unit 1) (value "V1") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "9V1") (unit 1) (value "V1") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
     )
     (path "/4e653426-895c-43ec-96ae-d39c1b4fc6d5"
       (reference "C1") (unit 1) (value "4.7 uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm")
